@@ -1,7 +1,7 @@
 ---
 layout: page
 title: projects & publications
-permalink: projects/
+permalink: /projects/
 description:
 ---
 
