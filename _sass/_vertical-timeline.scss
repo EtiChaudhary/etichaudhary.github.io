@@ -41,7 +41,7 @@ $white: #fafafa;
 }
 
 .gradient-item .tdata{
-    height: 3rem;
+    height: auto;
     padding: 1rem 1rem 0rem 1rem;
     box-sizing: border-box;
     background: linear-gradient(135deg, $orange 0%,$my-orange 100%);
