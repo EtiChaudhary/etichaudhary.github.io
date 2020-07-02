@@ -4,13 +4,12 @@
     height: 250px;
     padding: 10px;
     vertical-align: middle;
-    width: 33.33%;
     display: flex;
 
     .thumbnail {
         overflow: hidden;
         height: 200px;
-        width: 100%;
+        width: 200px;
 
         img {
             position: relative;
