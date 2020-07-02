@@ -1,6 +1,6 @@
 ---
 layout: about
-permalink: 
+permalink: /
 title: <strong>Eti</strong> Chaudhary
 description:
 
