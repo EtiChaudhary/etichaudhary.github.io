@@ -42,7 +42,7 @@ $white: #fafafa;
 
 .gradient-item .tdata{
   padding: 1rem 1rem 0rem 1rem;
-  box-sizing: border-box;
+  box-sizing: content-box;
   background: linear-gradient(135deg, $orange 0%,$my-orange 100%);
   border-radius: 1rem 1rem 0 1rem;
   grid-column: 1;
