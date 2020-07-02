@@ -1,0 +1,53 @@
+/*** VARIABLES ***/
+/* Colors */
+$black: #1d1f20;
+$blue: #83e4e2;
+$green: #a2ed56;
+$yellow: #fddc32;
+$white: #fafafa;
+
+
+
+/*** EXTEND ***/
+/* box-shadow */
+%boxshadow {
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
+}
+
+
+
+/*** STYLE ***/
+
+.gradient-list {
+  margin: 1.75rem 0;
+  padding-left: 1rem;
+}
+
+.gradient-list .gradient-item{
+  margin: 1.75rem 0; 
+  display: grid; 
+  grid-template-columns:repeat(3, 1fr);;
+  grid-gap: 10px;
+}
+.gradient-item .idata {
+  background: white;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  @extend %boxshadow;
+  margin-top: 1rem;
+  min-height: 3rem;
+  padding: 1rem 1rem 1rem 3rem;
+  @extend %boxshadow;
+  grid-column: 2/6;
+}
+
+.gradient-item .tdata{
+    height: 3rem;
+    padding: 1rem 1rem 0rem 1rem;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, $orange 0%,$my-orange 100%);
+    border-radius: 1rem 1rem 0 1rem;
+    content: '';
+    overflow: hidden;
+    grid-column: 1;
+    font-weight: bold;
+}
