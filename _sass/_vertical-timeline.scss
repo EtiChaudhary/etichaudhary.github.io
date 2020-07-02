@@ -41,7 +41,7 @@ $white: #fafafa;
 }
 
 .gradient-item .tdata{
-  height:auto;
+  height: fit-content;
   display: flex;
   padding: 1rem 1rem 0rem 1rem;
   background: linear-gradient(135deg, $orange 0%,$my-orange 100%);
